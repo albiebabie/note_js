@@ -1,3 +1,6 @@
+describe("Note Controller")
+
+
 describe("Note List Model", function() {
 
   it("can store multiple notes", function() {

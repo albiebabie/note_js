@@ -5,12 +5,12 @@
   }
 
   ListView.prototype.htmlList = function() {
-    var listToHtml = this.listView.getList();
+    var listToHtml = this.listView.getNotes();
 
     var mappedList = listToHtml.map(function(note) {
-      return "<li>" + note.getNote().text + "</li>";
+      return "<li>" + note.getText().text + "</li>";
     });
-    
+
     return '<ul>' + mappedList.join('') + '</ul>';
   }
 

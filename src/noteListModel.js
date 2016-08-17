@@ -8,7 +8,7 @@
     this.listNotes.push(note);
   }
 
-  List.prototype.getList = function() {
+  List.prototype.getNotes = function() {
     return this.listNotes;
   }
 
